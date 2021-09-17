@@ -1,0 +1,195 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 600px;
+    position: relative;
+    left: 300px;
+    width: 500px;
+    /* float: center; */
+    /* float: center;    */
+    
+    left: 400px;
+}
+
+#main{
+    
+    float: top;
+    
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    
+
+    margin: 21px;
+    /* display: block; */
+
+    /* background-color: rgb(59, 53, 53); */
+    
+    /* scroll-behavior: auto; */
+
+
+
+}
+#form_id{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    /* left: 400px; */
+    float: center;
+    /* background-color: red; */
+    /* margin: 4px; */
+
+
+}
+#send_text{
+    width: 60px;
+    height: 35px;
+    float: right;
+
+    
+    background-color: blueviolet;
+    
+}
+#input_text{
+    width: 420px;
+    height: 30px;
+    
+    
+}
+#sub_main{
+    /* width: 300px; */
+    
+    display: grid;
+    /* background-color: rgb(255, 153, 0); */
+}
+
+.left_msg{
+    /* position: relative; */
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    /* background-color: red; */
+    /* width: 40%; */
+    /* border: 2px solid green; */
+    padding: 5px;
+    text-align: left;
+    float: center;
+    /* color: ivory; */
+    /* background-color:red; */
+    margin: 2px;
+    /* grid-template-columns: 1fr 2px 1fr; */
+
+
+
+}
+.right_msg{
+    
+    display:grid;
+    flex-direction: row;
+    grid-template-columns: 4fr 1fr;
+    /* justify-content: space-between; */
+    align-items: end;
+    margin-left: 200px;
+
+    
+    /* -ms-flex-item-align: end; */
+    /* grid-template-rows: auto; */
+    height: 40px;
+    
+    /* border: 2px solid green; */
+    padding: 5px;
+    /* float: right; */
+    /* text-align: left; */
+    /* margin: 5px; */
+    /* background-color: blue; */
+    /* color: ivory; */
+    /* float: right; */
+    width: 50%;
+    
+
+}
+.timer1 {
+    height : 5px;
+    margin: 0.5em;
+    padding: 0.5em;
+    /* background-color: rgb(150, 150, 150); */
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 2px black; */
+  }
+.timer2 {
+    height : 5px;
+    margin: 0.5em;
+    padding: 0.5em;
+    /* background-color: rgb(150, 150, 150); */
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 2px black; */
+    text-align: right;
+  }
+.image_l{
+    width: 2em;
+    height: 2em;
+    margin: 0.5em;
+    /* display: inline-block; */
+    border-radius: 100px;
+    position: relative;
+    left: 1px;
+    top: 1px;
+    /* width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    float: left; */
+
+}
+
+.image_ri{
+
+    width: 2em;
+    height: 2em;
+    /* margin: 0.5em; */
+    display: inline-block;
+    border-radius: 100px;
+    /* float: right; */
+    position: relative;
+    top: 1px;
+    
+    /* width: 40px;
+    height:40px;
+    border-radius: 100px;
+
+    float: right; */
+
+}
+.image_typed{
+
+    width: 2em;
+    height: 2em;
+    /* margin: 0.5em; */
+    display: inline-block;
+    border-radius: 100px;
+    /* float: right; */
+    position: relative;
+    top: 1px;
+    
+    /* width: 40px;
+    height:40px;
+    border-radius: 100px;
+
+    float: right; */
+
+}
+.msg1_id{
+    position: relative;
+    top: 15px;
+
+    width: 100px;
+    /* color: orchid; */
+}
+
+.msg2_id{
+    position: relative;
+    bottom: 10px;
+    margin: 2px;
+    /* background-color: red; */
+}
